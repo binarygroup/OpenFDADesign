@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="06ce29e1-642f-4698-ae55-4bf5594c1f28"/>
+   <code code="50577-6" codeSystem="2.16.840.1.113883.6.1" displayName="OTC ANIMAL DRUG LABEL"/>
+   <title>Breath Friend®</title>
+   <effectiveTime value="20150423"/>
+   <setId root="0263e1ee-e8f1-4df5-9bef-f9cb99d92698"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="115889214"/>
+            <name>Addison Biological Laboratory, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="832629203" root="1.3.6.1.4.1.519.1"/>
+                  <name>Addison Biological Laboratory, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="832629203"/>
+                        <name>Addison Biological Laboratory, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="147882294"/>
+                        <name>Jost Chemical Co.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" displayName="api manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="497555bb-a973-406b-b69b-098876996946"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20150506"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="86045-3200" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Breath Friend</name>
+                        <formCode code="C42934" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GEL"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Zinc Gluconate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value=".0165" unit="g"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="U6WSN5SQ1Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ZINC GLUCONATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="13S1S8SF37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ZINC CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1EQV5MLY3D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TAURINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="05JZI7B19X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOXYMETHYLCELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="59" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="86045-3200-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43233" displayName="PACKAGE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20010101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbac8e16c-333b-4b5f-95b0-2a9aa52f102a">
+               <id root="19e004da-5905-4489-be64-52842d06c669"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principle display panel: 59mL Package</title>
+               <text>
+                  <paragraph>Cleanses and Freshens Without Brushing </paragraph>
+                  <paragraph>Breath Friend®</paragraph>
+                  <paragraph/>
+                  <list listType="unordered">
+                     <item>Alcohol Free</item>
+                     <item>Chlorhexidine Free</item>
+                     <item>Taste Free</item>
+                  </list>
+                  <paragraph>2 FL. OZ. (59ml)</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lf61d704a-f3e7-49d1-ac6a-c540ff597945"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20150506"/>
+               <component>
+                  <observationMedia ID="Lf61d704a-f3e7-49d1-ac6a-c540ff597945">
+                     <text>Breath Friend Front Panel</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="CMC Blue Breath Friend Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L7ec91d96-23fd-45ea-9286-bbb298ca6547">
+               <id root="74935b3c-057f-46c9-af5a-baa1f1aa02a6"/>
+               <code code="50744-2" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR OWNERS/CAREGIVERS SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Benefits:</content> Natural 1-step oral cleansing action without brushing, instant fresh breath, superior pet acceptance.</paragraph>
+               </text>
+               <effectiveTime value="20150506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lcb4b7581-b42c-4ca1-a5c1-a483668f77a3">
+               <id root="368e7098-5c25-4ab3-8072-ba7f96ae415c"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Directions:</content> Apply gel directly on the gums above the outside of the back molars. One drop placed on the index finger and applied on each side of the mouth will give optimum pet acceptance in adult cats. Use slightly more for small dogs. Most medium to large dogs will accept direct application from the built-in applicator tip.</paragraph>
+                  <paragraph>A natural cleansing action will distribute the gel to remote areas of the mouth.  Use daily for best results.</paragraph>
+               </text>
+               <effectiveTime value="20150506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lfeb10e1d-836f-41b1-b957-6a29e9711723">
+               <id root="b479b4cb-fac6-4480-a11c-dd6b86cca532"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Storage:</content> Store at room temperature and keep out of direct sunlight. </paragraph>
+               </text>
+               <effectiveTime value="20150506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5d0e45bd-29a8-47b3-93d0-396fa6a2d1f4">
+               <id root="2bbe9deb-bd2a-4057-a52d-fbe6387af794"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Ingredients:</content> Deionized water, Carboxymethylcellulose, Zinc gluconate, Taurine, Methylparaben, Propylparaben, F.D.&amp;C. Blue #1.</paragraph>
+               </text>
+               <effectiveTime value="20150506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L30032b4e-7122-4bbe-88f7-ab5ff2df0e02">
+               <id root="bcfbea51-5987-4c97-a670-c8eacebfc436"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>Keep out of reach of children.  </paragraph>
+               </text>
+               <effectiveTime value="20150506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0b613ec1-2545-4577-be61-27a77a86aced">
+               <id root="8286fbc3-6cb2-4aae-a049-d3e16f462fc3"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Addison Biological Laboratory, Inc. </paragraph>
+                  <paragraph>507 North Cleveland Avenue</paragraph>
+                  <paragraph>Fayette, Missouri 65248 U.S.A.</paragraph>
+                  <paragraph>www.addisonlabs.com</paragraph>
+                  <paragraph>MADE IN THE U.S.A.</paragraph>
+                  <paragraph>Rev. 09/11</paragraph>
+               </text>
+               <effectiveTime value="20150506"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

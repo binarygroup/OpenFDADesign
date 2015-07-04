@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="d29e0120-a8f4-4bf0-bd91-2e330a1b55fd"/>
+   <code code="50577-6" codeSystem="2.16.840.1.113883.6.1" displayName="OTC ANIMAL DRUG LABEL"/>
+   <title>Bimeda, Inc. Division of Cross Vetpharm Group
+SulfaMed-G
+(brand of Sulfadimethoxine)
+Soluble Powder
+ANADA 200-376, Approved by FDA</title>
+   <effectiveTime value="20150507"/>
+   <setId root="05cc2052-a864-4038-a0e4-ff0ad74d0bda"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="060492923" root="1.3.6.1.4.1.519.1"/>
+            <name>Bimeda, Inc. Division of Cross Vetpharm Group</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="5d7b7d2b-ec46-482a-9628-4d196b53374e"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Dosage and Administration</title>
+               <text>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">DOSAGE AND ADMINISTRATION:<br/>
+                     </content>
+                     <content styleCode="underline">Species                                                Concentration                                                   Use Directions</content>
+                     <br/>Chickens                                                   0.05%                                                    Contents of packet to 50 gallons of water<br/>
+                     <br/>
+                     <content styleCode="underline">Turkeys                                                    0.025%                                                   Contents of packet to 100 gallons of water</content>
+                     <br/>If animals show no improvement within 5 days, discontinue treatment and re-evaluate diagnosis.  Prepare a fresh stock solution daily.  Handle the recommended dilutions (chicken 0.05% and turkeys 0.025%) as regular drinking water.  Administer as sole source of drinking water and sulfonamide medication.<br/>
+                     <br/>Chickens and turkeys that have survived fowl cholera outbreaks should not be kept for replacements or breeders.<br/>
+                     <br/>
+                     <content styleCode="bold">Automatic Proportioners - </content>To make stock solution, add contents of 5 packets to 2 gallons of water for chickens and to 4 gallons of water for turkeys.  Set proportioner to feed at a rate of 1 fl oz of stock solution per gallon of water.<br/>
+                     <br/>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="underline">TREATMENT PERIOD- 6 consecutive days</content>
+                     </content>
+                     <br/>
+                     <br/>Dairy Calves, Dairy Heifers and Beef Cattle<br/>
+                     <content styleCode="bold">Dosage:</content>  25 mg/lb first day followed by 12.5 mg/lb/day for 4 days.<br/>
+                     <br/>
+                     <renderMultiMedia referencedObject="L482230fd-0148-46c6-a6f6-ea621a9eb2fa"/>
+                     <br/>
+                     <content styleCode="bold">
+                        <br/>
+                     </content>
+                     <br/>*Note:  Make a cattle stock solution by adding 1 packet of SulfaMed-G Soluble Powder to 1 gallon of water.<br/>
+                     <br/>** This dosage recommendation is based on a water consumption rate of 1 gallon per 100 lb of body weight per day, the expected water consumption rate for summer.  Water  consumption during cold months (winter) may drop markedly (30-40%).  Accordingly, adjustments must be made in the dilution rates to compensate for this and insure proper drug intake.<br/>
+                     <br/>For treatment of individual cattle, SulfaMed-G Soluble Powder stock solution for cattle may be given as a drench.<br/>Administer using same mg/lb dosage as outlined above.<br/>
+                     <br/>Twently fl. oz. of cattle stock solution will medicate one-600 lb animal initially or two-600 lb animals on a maintenance dose.<br/>Contents of packet will medicate six-600 lb animals initially or twelve-600 lb animals on a maintenance dose.<br/>
+                     <br/>During treatment period, make certain that animals maintain adequate water intake.<br/>If animals show no improvement within 2 or 3 days, re-evaluate diagnosis.  Treatment should not be continued beyond 5 days.<br/>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150507"/>
+               <component>
+                  <observationMedia ID="L482230fd-0148-46c6-a6f6-ea621a9eb2fa">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="chart.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="63ab9743-7f86-4955-85a6-786e3eac24f9"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20150507"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="61133-5804" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>SulfaMed-G Soluble Powder</name>
+                        <formCode code="C42973" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sulfadimethoxine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="473" unit="g"/>
+                              <denominator value="535" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="49DG2B481W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sulfadimethoxine Sodium</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="30CPC5LDEX" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Sulfadimethoxine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="535" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61133-5804-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="107" unit="g"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61133-5804-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43200" displayName="POUCH" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="11340" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61133-5804-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43195" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="JAR"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20051117"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANADA200376" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73583" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANADA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c3d224b4-dd2a-4d93-a23a-779451337acf"/>
+               <code code="53412-3" codeSystem="2.16.840.1.113883.6.1" displayName="RESIDUE WARNING SECTION"/>
+               <title>Residue Warning</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">RESIDUE WARNINGS:  CHICKENS AND TURKEYS -</content> Withdraw 5 days before slaughter.  Do not administer to chickens over 16 weeks (112 days) of age or to turkeys over 24 weeks (168 days) of age.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CATTLE -</content> Withdraw 7 days before slaughter.  For dairy calves, dairy heifers and beef cattle only.  A withdrawal period has not been established for this product in pre-ruminating calves.  Do Not Use in Calves to be Processed for Veal.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20100106"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8baebf3e-0d85-43ec-979b-8160c3fc5bf6">
+               <id root="26d37949-f1b4-4f7a-b639-b1c4d06693ce"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Store at controlled room temperature 20<content>﻿° - 25°C (68° - 77°F), with excursions permitted to 15° - 30°C (59° - 30°F).</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150507"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lafffa3a5-3b19-43f6-8fe7-92180c4dbad2">
+               <id root="7b254cea-8048-4656-957a-0427c19359d2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lc779b6ef-d5e4-4ab6-8992-7f3235f60f32"/>
+                     <renderMultiMedia referencedObject="L865df986-9c16-4dcf-b22d-8bfb0d539047"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150507"/>
+               <component>
+                  <observationMedia ID="L865df986-9c16-4dcf-b22d-8bfb0d539047">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="sulfamed front.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Lc779b6ef-d5e4-4ab6-8992-7f3235f60f32">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="sulfamed back.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

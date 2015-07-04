@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="437a0bdb-ddff-4e35-be89-275e84ecdf13"/>
+   <code code="50577-6" codeSystem="2.16.840.1.113883.6.1" displayName="OTC ANIMAL DRUG LABEL"/>
+   <title>WORMICIDE</title>
+   <effectiveTime value="20150430"/>
+   <setId root="48d24e04-97ca-4fa3-8686-1d06a79842a3"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="069926483" root="1.3.6.1.4.1.519.1"/>
+            <name>WESTWOOD LABORATORIES INC.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="069926483" root="1.3.6.1.4.1.519.1"/>
+                  <name>WESTWOOD LABORATORIES INC.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="069926483" root="1.3.6.1.4.1.519.1"/>
+                        <name>WESTWOOD LABORATORIES INC.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" displayName="api manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="relabel"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="repack"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2acd3d3c-c770-4589-9815-87cbfc67ca7d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20150430"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="47082-975" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>WORMICIDE</name>
+                        <formCode code="C42996" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRUP"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>PIPERAZINE CITRATE </name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="5.5" unit="g"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="63KP7FXF2I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PIPERAZINE CITRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1RTM4PAL0V" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PIPERAZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C151H8M554" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUCROSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="506T60A25R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="SB8ZUX40TY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SACCHARIN SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="T9D99G2B1R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARAMEL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z8IX2SC1OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLPARABEN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="118" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="47082-975-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="236" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="47082-975-08" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73362" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="APPLE" xsi:type="CE">
+                              <originalText>APPLE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20060601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="692ee3f3-8db0-4b07-a01d-be528845be00"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L6eb3e0f3-e401-487b-8dc6-7748b6bed09c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150430"/>
+               <component>
+                  <observationMedia ID="L6eb3e0f3-e401-487b-8dc6-7748b6bed09c">
+                     <text>Wormicide 4oz</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Wormicide 4oz.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1477b275-6160-478a-be03-2baec301ac5a"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>DRUG FACTS</paragraph>
+                  <paragraph>Active Ingredients</paragraph>
+                  <paragraph>Piperazine Citrate 55mg (Equivalent to 50 mg Piperazine Hexahydrate-equivalent to Piperazine Base)                                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150330"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e7111c65-4809-454f-bc68-e8d270dcb8c1"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>USES</paragraph>
+                  <paragraph>A mild and effective way to remove roundworms (Toxocara Canis and Toxascaris Leonina) from cats and kittens<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150330"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1b07dc5b-1503-4442-a62c-57624e3e313d"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>WARNINGS</paragraph>
+                  <paragraph>CAUTION: Consult veterinarian before using in severely debilitated animals. for diagnosis, treatment and control of parasitism, consult your veterinarian<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150402"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="42b358af-caa2-46fc-8a43-f227e0b12502"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>DIRECTIONS</paragraph>
+                  <paragraph>One teaspoonful (5mL) per pounds of body weight. The syrup can be dropped directly into pets mouth or mixed into food. Cats may be wormed at 6 to 8 weeks of age. The first treatment should be repeated 10 days later. Reinfestation may occur. Repeat in ten days if indicated.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150402"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="22599dfd-aaf7-4deb-86b4-e91ef3ba36b2"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>Inactive Ingredients</paragraph>
+                  <paragraph>Water, Sucrose, Sorbitol, Sodium Saccharin, Caramel, Citric Acid, Methylparaben, Propylparaben, Artificial Flavor.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150330"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="eea90730-8311-4c77-83fc-b64bda73d1fb"/>
+               <code code="50744-2" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR OWNERS/CAREGIVERS SECTION"/>
+               <text>
+                  <paragraph>CrazyCat and Crazy Little Kitty are licensed trademarks of Crazy Pet, L.L.C.</paragraph>
+                  <paragraph>Mfd. i U.S.A. for 2009 Cardinal Laboratories Inc., Azusa, CA 91702</paragraph>
+                  <paragraph>Visit our website at:www.cardinalpet.com<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L682a8167-7a1d-416e-b6e6-02ec9f66297e">
+               <id root="01cbafc9-dc1f-47e1-b5b2-acfdfc9e379f"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text/>
+               <effectiveTime value="20150402"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="ed919efd-70c8-4c8d-a097-dadb8957bce7"/>
+   <code code="50577-6" codeSystem="2.16.840.1.113883.6.1" displayName="OTC ANIMAL DRUG LABEL"/>
+   <title>DeLaval<br/>Tri-Fender</title>
+   <effectiveTime value="20150504"/>
+   <setId root="12e8b3f1-5959-4b2a-bb9f-82bc6a1178c0"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="173704867"/>
+            <name>DeLaval</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="069288728" root="1.3.6.1.4.1.519.1"/>
+                  <name>WestAgro, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="147528723"/>
+                        <name>WestAgro, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" displayName="api manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="002222368"/>
+                        <name>WestAgro, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" displayName="api manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="044610140"/>
+                        <name>WestAgro, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" displayName="api manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="d4abd774-f82b-4118-8a1e-cfdba1cffb4b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140325"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="55756-009" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Tri-Fender</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Iodine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="10" unit="g"/>
+                              <denominator value="1" unit="kg"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2KD25AE03X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IODINE I-120</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="09G4I6V86Q" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IODIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="TTV12P4NEE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>XANTHAN GUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="29UKX3A616" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM IODIDE I-123</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="G6DQL26D50" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLOXAMER 335</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="F05Q2T2JA0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOCUSATE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="U558PCS5Z9" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM IODATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="3.95" unit="kg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55756-009-11" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C79136" displayName="PAIL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="19.7" unit="kg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55756-009-08" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C79136" displayName="PAIL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="59.2" unit="kg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55756-009-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" displayName="DRUM" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="217" unit="kg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55756-009-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" displayName="DRUM" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1085" unit="kg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55756-009-27" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43206" displayName="TANK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20120101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L800bc21b-458a-4886-a81d-f32a0193df00">
+               <id root="06530270-56fb-4357-8f08-6bd42d8fa627"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>
+                     <content>I<content>
+                           <sub>﻿2</sub>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content>Sanitizing teat dip with 10% glycerin</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Sanitizante de pezones con 10% glicerina</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140327"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La79a3e0f-f6d6-4003-925d-c980e29017ac">
+               <id root="1a207f69-9294-4f34-b284-9b04f57bae24"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">ACTIVE INGREDIENTS:</content>
+                  </paragraph>
+                  <paragraph>Iodine .................... 1%</paragraph>
+                  <paragraph>pH 4 minimum</paragraph>
+               </text>
+               <effectiveTime value="20140326"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6a4cedd1-0a72-40d4-a82c-64ddc3d03623">
+               <id root="1e41ce66-e2eb-4327-bbdf-eaa48c6a78ec"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">l-tech</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FREE IODINE TECHNOLOGY</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ACT</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ADVANCED CONDITIONING TECHNOLOGY</content>
+                  </paragraph>
+                  <paragraph>US Patent Nos.:     4,271,149</paragraph>
+                  <paragraph>                             5,368,868</paragraph>
+               </text>
+               <effectiveTime value="20140326"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L098d4cec-1c8e-424a-b889-095ce6c60d29">
+               <id root="d79bb8c1-b49e-49f8-838a-29403dc18a8c"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">KEEP OUT OF REACH OF CHILDREN</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">!CAUTION</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MANTENER FUERA DEL ALCANCE DE LOS NINOS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">!CUIDADO</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140326"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L91666225-68b0-4cc2-87e1-8144a1cd4a68">
+               <id root="3c28907c-3196-48cf-826b-3a8366cc2852"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>FIRST AID</title>
+               <text>
+                  <paragraph>Contact with product can cause irritation to eyes.</paragraph>
+                  <paragraph>Avoid contact with eyes.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Eye contact:</content>  Flush with water.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If swallowed:</content>  Do not induce vomiting.  Call a physician or poison control center immediately.</paragraph>
+               </text>
+               <effectiveTime value="20140326"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc2a826e3-3737-42b5-be82-a98bf30366ab">
+               <id root="218c1ba9-80f5-4e82-bd85-c016394090cc"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">2009</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 55756-009</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140326"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6da8fb39-5055-4d7d-b7ea-cdfdb6a4a3c7">
+               <id root="1fd62995-66b7-4147-b411-479760f73e1a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>SI USTED NO PUEDE LEER ESTA ETIQUETA, POR FAVOR PIDA A ALGUIEN MAS QUE SE LA LEA ANTES DE USAR ESTE PRODUCTO</paragraph>
+                  <paragraph>READ AND UNDERSTAND ALL INSTRUCTIONS BEFORE USING THIS PRODUCT</paragraph>
+               </text>
+               <effectiveTime value="20140326"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L75ddb245-175b-4f2a-bb89-73a7c1980927">
+               <id root="bb34550c-7886-4d6d-854f-15e5cdfc6ceb"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE AND DISPOSAL</title>
+               <text>
+                  <paragraph>THOROUGHLY RINSE ALL MEASURING DEVICES AND STORE OUT OF REACH OF CHILDREN.  Avoid contact with food or feed.  Avoid storing near heat or open flame.  Keep from freezing.  If product is frozen, thaw in warm room and mix well before using.  Keep container tightly closed when not in use.  Do not reuse empty container.  Rinse empty container before disposing in a safe manner.</paragraph>
+               </text>
+               <effectiveTime value="20140326"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lff45ff48-63d9-418a-a26f-eaabab15e776">
+               <id root="c642c83a-5b63-46cf-9fe6-55e1a7f8b990"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Not for Human Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Additional Information on Material Safety Data Sheet</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140326"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3ac18e7e-36eb-41cd-bcbd-9ddd7355ce8b">
+               <id root="2195c785-f8c1-45e0-a2d2-9ed041b95ddd"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CHEMTREC EMERGENCY NUMBER 1-800-424-9300</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140326"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L95a5b93c-8ecb-43f1-8249-5a50400ac8c9">
+               <id root="35f3b1cf-91ce-4de1-b2b7-24482daa0379"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph/>
+                  <paragraph>Tri-Fender is a liquid, iodine-based, ready-to-use sanitizing teat dip to be used on lactating cows directly after milking.  Tri-Fender is designed for use in automated milking systems.  It has an efficient germ-killing strength due to the stable level of high free iodine.  Tri-Fender also has excellent skin conditining properties (ACT- Advanced Conditioning Technology).  Tri-Fender is suitable for spraying, but can also be applied by dipping.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">USE DIRECTIONS</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Use Tri-Fender santizing dip undiluted.</item>
+                     <item>Consult veterinarian before starting or continuing to use teat dip if cow's teats are sore or chapped.</item>
+                     <item>Do not use teat dip for cleaning and/or sanitizing of dairy equipment.</item>
+                     <item>Discard any teat sanitizing solution that becomes dirty or contaminated for any reason.</item>
+                     <item>Good dairy practices suggest the thorough cleaning and sanitizing of teats before milking to avoid contamination and assist in the control of mastitis.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">INSTRUCTIONS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">
+                        <content styleCode="bold">Pre-Dipping</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Dip or spray each teat with a DeLaval pre-dip, applying an ample coat to each teat.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">
+                        <content styleCode="bold">Post-Dipping</content>
+                     </content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Immediately after removing milker unit, dip or spray each teat with Tri-Fender.  Discard any teat diping solution that becomes dirty or contaminated for any reason.</item>
+                     <item>Before exposing cows to below freezing temperatures, the teats should be thoroughly dry to reduce the potential of frostbite.</item>
+                     <item>Failure to follow these instructions may result in frozen teats and injured animals.</item>
+                     <item>Regularly check spray patterns to ensure nothing interferes or obstructs the spray.</item>
+                     <item>Always clean spraying equipment.</item>
+                     <item>Always use a clean teat dip cup.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20140327"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L4c71df16-ed9c-4eea-8347-067998df4cf1">
+               <id root="43b4ccaa-bad7-4f9f-ac2e-cbabafac9785"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DeLaval</content>
+                  </paragraph>
+                  <paragraph>Kansas City, MO  64153</paragraph>
+                  <paragraph>Copyright 2012, DeLaval</paragraph>
+                  <paragraph>Made in U.S.A.</paragraph>
+               </text>
+               <effectiveTime value="20140326"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3b4b760b-0665-4ec6-803d-07c94d0a9f88">
+               <id root="c0ff814a-734c-45ac-bbf8-514a1e00ea46"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NET CONTENTS:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">LOT NO.:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">EXP. DATE:</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140326"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2b313db2-8bc3-43d6-86f8-6d77b655374e">
+               <id root="7381a76a-8159-4df6-8393-b8459bd1918a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lc564b017-31af-4175-b43c-327aeb29b6b6"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140326"/>
+               <component>
+                  <observationMedia ID="Lc564b017-31af-4175-b43c-327aeb29b6b6">
+                     <text>Product Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="TriFender Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

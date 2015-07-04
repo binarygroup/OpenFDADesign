@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2551e8d6-5491-434e-8f7d-78c488c2803f"/>
+   <code code="50578-4" displayName="PRESCRIPTION ANIMAL DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">Osurnia<sup>®</sup>
+         <br/>(florfenicol • terbinafine • betamethasone acetate)</content>
+      <br/>
+      <br/>
+      <content styleCode="bold">Otic gel<br/>
+      </content>Antibacterial, antifungal, anti-inflammatory<br/>
+      <br/>
+      <content styleCode="bold">For Otic Use in Dogs Only</content>
+   </title>
+   <effectiveTime value="20150120"/>
+   <setId root="8ad50c32-19d9-4a50-9a40-3a5d6f99c182"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="966985624" root="1.3.6.1.4.1.519.1"/>
+            <name>Novartis Animal Health US, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="f9052842-ba0d-43e7-a17f-8f2d5b42e814"/>
+               <code code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20150121"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="58198-6014" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Osurnia</name>
+                        <formCode code="C42934" displayName="GEL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>terbinafine, florfenicol, betamethasone</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="G7RIW8S0XP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TERBINAFINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="G7RIW8S0XP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TERBINAFINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9J97307Y1H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FLORFENICOL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9J97307Y1H" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FLORFENICOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TI05AO53L7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BETAMETHASONE ACETATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9842X06Q6M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BETAMETHASONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1P9D0Z171K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTYLATED HYDROXYTOLUENE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2UMI9U37CP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>OLEIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H1109Z9J4N" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROGENATED SOYBEAN LECITHIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8D08K3S51E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE CARBONATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3L7GR2604E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCEROL FORMAL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43207" displayName="TUBE, WITH APPLICATOR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="2"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="58198-6014-1" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43207" displayName="TUBE, WITH APPLICATOR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="20"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="58198-6014-3" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NADA141437" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73593" displayName="NADA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150501"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="WHITE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                              <originalText>off-white to slightly yellow translucent gel</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38192" displayName="AURICULAR (OTIC)" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0e56305c-04e8-44ca-8c21-4cc0604f296a">
+               <id root="3bade1d1-9fdc-412c-b640-cc62a71f0282"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Caution:
+</content>
+               </title>
+               <text>
+                  <paragraph>Federal (USA) law restricts this drug to use by or on the order of a licensed veterinarian.</paragraph>
+               </text>
+               <effectiveTime value="20150120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b5631890-6751-4d98-9c87-18b08c3ad8e9">
+               <id root="8adea724-215a-4be3-8fcf-a704702a444e"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">Description:
+</content>
+               </title>
+               <text>
+                  <paragraph>OSURNIA contains 10 mg florfenicol, 10 mg terbinafine and 1 mg betamethasone acetate per mL and the inactive ingredients propylene carbonate, glycerol formal, hypromellose, phospholipid, oleic acid and BHT in an off-white to slightly yellow translucent gel.</paragraph>
+               </text>
+               <effectiveTime value="20150120"/>
+               <component>
+                  <section ID="LINK_d0d43d73-85a6-4933-9721-5ed7db5869bc">
+                     <id root="ee89c2a0-bffc-4af7-8ec1-78c0224bd37a"/>
+                     <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+                     <title>
+                        <content styleCode="bold">Indication:
+</content>
+                     </title>
+                     <text>
+                        <paragraph>OSURNIA is indicated for the treatment of otitis externa in dogs associated with susceptible strains of bacteria <content styleCode="italics">(Sta</content>
+                           <content styleCode="italics">phylococcus </content>
+                           <content styleCode="italics">pseudintermedius) </content>and yeast <content styleCode="italics">(Malassezia </content>
+                           <content styleCode="italics">pachyderma</content>
+                           <content styleCode="italics">tis).</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20150120"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_670025dc-14c4-4cd8-812d-dbbe17075549">
+               <id root="fcd2c921-81e7-442c-92d1-f5c0a88e2f71"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">Dosage and Administration:
+</content>
+               </title>
+               <text>
+                  <paragraph>OSURNIA should be administered in the clinic. Clean and dry the external ear canal before administering the initial dose of the product. Administer one dose (1 tube) per affected ear(s) and repeat administration in 7 days.</paragraph>
+                  <paragraph>Do not clean the ear canal for 45 days after the initial administration to allow contact of the gel with the ear canal. Cleaning the ear may affect product effectiveness (see <content styleCode="bold">
+                        <linkHtml href="#LINK_ff20177a-a798-44f4-8c82-5b395f08dbad">Effectiveness</linkHtml>
+                     </content>). If alternative otic therapies are required it is recommended to clean the ear(s) before application.</paragraph>
+                  <paragraph>Open tube by twisting  the soft tip.  Insert the flexible tip into the affected external ear canal(s) and squeeze entire tube contents into the external ear canal(s). After application, gently massage the base of the ear to allow the gel to penetrate to the lower part of the ear canal.</paragraph>
+               </text>
+               <effectiveTime value="20150120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_438eb210-c2f5-4d7c-9efb-70e67b824fe6">
+               <id root="cd2c119a-1c70-4b7c-a87e-22dd5ad49793"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">Contraindications:
+</content>
+               </title>
+               <text>
+                  <paragraph>Do not use in dogs with known tympanic perforation (see <content styleCode="bold">
+                        <linkHtml href="#LINK_8d3d9d09-4e79-45c4-9eff-812b12baf9bb">Precautions</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>Do not use in dogs with a hypersensitivity to florfenicol, terbinafine or corticosteroids.</paragraph>
+               </text>
+               <effectiveTime value="20150120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0c5391fd-946a-4349-bbbc-7c25d8f508ae">
+               <id root="47294d86-e625-4157-acce-b6df69effb65"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">Warnings:
+</content>
+               </title>
+               <text>
+                  <paragraph>Not for use in humans. Keep this and all medications out of reach of children. Consult a physician in case of accidental ingestion by humans. In case of accidental skin contact, wash area thoroughly with water. Avoid contact to the eyes.</paragraph>
+               </text>
+               <effectiveTime value="20150120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8d3d9d09-4e79-45c4-9eff-812b12baf9bb">
+               <id root="3bcf87e3-985f-4795-b0d5-775ab29c8997"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">Precautions:
+</content>
+               </title>
+               <text>
+                  <paragraph>Do not administer orally.</paragraph>
+                  <paragraph>The use of OSURNIA in dogs with perforated tympanic membranes has not been evaluated. The integrity of the tympanic membrane should be confirmed before administering this product. Reevaluate the dog if hearing loss or signs of vestibular dysfunction are observed during treatment.</paragraph>
+                  <paragraph>Use of topical otic corticosteroids has been associated with adrenocortical suppression and iatrogenic hyperadrenocorticism in dogs (see <content styleCode="bold">
+                        <linkHtml href="#LINK_0deb6aa9-96c0-4027-9e18-8fd5997e087d">Animal </linkHtml>
+                     </content>
+                     <content styleCode="bold">
+                        <linkHtml href="#LINK_0deb6aa9-96c0-4027-9e18-8fd5997e087d">Safety</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>Use with caution in dogs with impaired hepatic function (see <content styleCode="bold">
+                        <linkHtml href="#LINK_0deb6aa9-96c0-4027-9e18-8fd5997e087d">Animal </linkHtml>
+                     </content>
+                     <content styleCode="bold">
+                        <linkHtml href="#LINK_0deb6aa9-96c0-4027-9e18-8fd5997e087d">Safety</linkHtml>
+                     </content>
+                     <content styleCode="bold"> and <linkHtml href="#LINK_e1e9f925-4341-480c-8b7f-e1d402af38c7">Adverse </linkHtml>
+                        <linkHtml href="#LINK_e1e9f925-4341-480c-8b7f-e1d402af38c7">Reactions</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>Glucocorticoids can decrease total thyroxine levels (T3 and T4). Therefore, thyroid function test results should be interpreted carefully in any dog receiving glucocorticoids.</paragraph>
+                  <paragraph>The safe use of OSURNIA in dogs used for breeding purposes, during pregnancy, or in lactating bitches, has not been evaluated.</paragraph>
+               </text>
+               <effectiveTime value="20150120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e1e9f925-4341-480c-8b7f-e1d402af38c7">
+               <id root="9ca79474-db26-4723-afd7-439a8c1e56b3"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">Adverse Reactions:
+</content>
+               </title>
+               <text>
+                  <paragraph>The following adverse reactions were reported during the course of a US field study for treatment  of otitis  externa in dogs treated  with OSURNIA with 1 tube per affected ear(s) and repeated after 7 days:</paragraph>
+                  <table cellspacing="0" cellpadding="0">
+                     <caption>Frequency of Adverse Reaction by Treatment</caption>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>Adverse Reaction</paragraph>
+                           </td>
+                           <td colspan="2" styleCode="     Botrule          Toprule         Lrule          Rrule     "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Botrule          Toprule         Lrule          Rrule     "> </td>
+                           <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     ">OSURNIA <br/>(n=190)</td>
+                           <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     ">Placebo<br/>(n=94)</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>Elevated Alkaline Phosphatase</paragraph>
+                           </td>
+                           <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>15 (7.9%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>3 (3.2%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>Vomiting</paragraph>
+                           </td>
+                           <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>7 (3.7%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>1 (1.1%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>Elevated AST, ALT, ALP*</paragraph>
+                           </td>
+                           <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>2 (1.1%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>0 (0.0%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>Weight loss (&gt;10% body weight)</paragraph>
+                           </td>
+                           <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>1 (0.53%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>0 (0.0%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>Hearing Decrease/Loss</paragraph>
+                           </td>
+                           <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>1 (0.53%)</paragraph>
+                           </td>
+                           <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>1 (1.1%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="     Botrule          Toprule         Lrule          Rrule     ">
+                              <paragraph>*Aspartate aminotransferase (AST), alanine aminotransferase (ALT), alkaline phosphatase (ALP). Two dogs with pre-existing elevations in ALP were reported to have an increase in liver enzymes (ALP, ALT and/or AST) at study exit. Subsequent clinical chemistries returned to pre-treatment levels in one dog, while no follow up was performed for the second dog.</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>To report suspected adverse drug events, contact Novartis Animal Health at 1-800-332-2761. For additional information about adverse drug experience  reporting  for animal drugs, contact  the FDA at 1-888-FDA-VETS or http://www.fda.gov/AnimalVeterinary/SafetyHealth</paragraph>
+                  <paragraph>For technical assistance, contact Novartis Animal Health at 1-800-332-2761.</paragraph>
+               </text>
+               <effectiveTime value="20150120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_10e2fb4f-c1d4-48a8-974c-9d34d3e70bd9">
+               <id root="b9238c7e-670a-4fd5-8b3d-fdee034d4799"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">Clinical Pharmacology:
+</content>
+               </title>
+               <text>
+                  <paragraph>OSURNIA is a fixed combination of three active substances: florfenicol (antibacterial), terbinafine (antifungal) and betamethasone acetate (steroidal anti-inflammatory). Florfenicol is a bacteriostatic antibiotic which acts by inhibiting protein synthesis. Its spectrum of activity includes Gram-positive and Gram-negative bacteria. Terbinafine is an antifungal which selectively inhibits the early synthesis of ergosterol. Betamethasone acetate is a glucocorticosteroid with anti-inflammatory activity.</paragraph>
+                  <paragraph>OSURNIA dissolves in ear wax and is slowly eliminated from the ear mechanically. Ear inflammation can increase the percutaneous absorption of active substances in OSURNIA.</paragraph>
+                  <paragraph>In a laboratory study conducted in healthy dogs (see <content styleCode="bold">
+                        <linkHtml href="#LINK_0deb6aa9-96c0-4027-9e18-8fd5997e087d">Animal </linkHtml>
+                     </content>
+                     <content styleCode="bold">
+                        <linkHtml href="#LINK_0deb6aa9-96c0-4027-9e18-8fd5997e087d">Safety</linkHtml>
+                     </content>), low plasma concentrations of florfenicol, terbinafine, and betamethasone acetate were measurable during the first 2-4 days after administration of 1X dose, and during the first 2-7 days after administration of 5X dose. No quantifiable plasma concentrations of any of the three active ingredients were observed in the pre-dose samples of most dogs prior to second and third administrations. Although total and peak exposure in the blood tended to be highly variable between dogs, systemic drug concentrations tended to increase in a less than dose-proportional manner as the administered dose increased from 1X to 5X.</paragraph>
+               </text>
+               <effectiveTime value="20150120"/>
+               <component>
+                  <section ID="LINK_752fea9c-8db4-4b99-b67b-235f3864e0ff">
+                     <id root="6bc3265f-64f5-45f3-9703-d4bb365fc51d"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Microbiology:
+</content>
+                     </title>
+                     <text>
+                        <paragraph>The compatibility and additive effect of each of the components in OSURNIA was demonstrated in a component effectiveness and non-interference study. An <content styleCode="italics">in vitro </content>study of organisms collected from clinical cases of otitis externa in dogs determined that florfenicol and terbinafine inhibit the growth of bacteria and yeast commonly associated with otitis externa in dogs. No consistent synergistic or antagonistic effect of the two antimicrobials was demonstrated. The addition of betamethasone acetate to the combination did not impair antimicrobial activity to any clinically significant extent.</paragraph>
+                        <paragraph>In a field study (see <content styleCode="bold">
+                              <linkHtml href="#LINK_ff20177a-a798-44f4-8c82-5b395f08dbad">Effectiveness</linkHtml>
+                           </content>), the minimum of 10 isolates from successfully treated cases with OSURNIA was met for <content styleCode="italics">Staphylococcus pseudintermedius, Malassezia pachydermatis, </content>and <content styleCode="italics">Pseudomonas aeruginosa. </content>However, there were only three dogs where  <content styleCode="italics">P. </content>
+                           <content styleCode="italics">aeruginosa </content>was the only pathogen cultured and they were all treatment failures. Therefore, OSURNIA may not be effective in treating otitis externa in which <content styleCode="italics">P</content>
+                           <content styleCode="italics">. </content>
+                           <content styleCode="italics">aeruginosa </content>is the only pathogen present.</paragraph>
+                     </text>
+                     <effectiveTime value="20150120"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ff20177a-a798-44f4-8c82-5b395f08dbad">
+                     <id root="82ca952e-c121-4dbe-8ab7-2cd353fe55ce"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Effectiveness:
+</content>
+                     </title>
+                     <text>
+                        <paragraph>Effectiveness was evaluated in 235 dogs with otitis externa. The study was a double-masked field study with a placebo control (vehicle without the active ingredients). One hundred and fifty- nine  dogs were  treated with OSURNIA and seventy-six dogs were treated with the placebo control. All dogs were evaluated for safety. Treatment (1 mL) was administered to the affected ear(s) and repeated 7 days later. Prior to the first administration, the ear(s) were cleaned with saline but not prior to the Day 7 administration. Six clinical signs associated with otitis externa were evaluated: pain, erythema, exudate, swelling, odor and ulceration. Total clinical scores were assigned for a dog based on the severity of each clinical sign on Days 0, 7, 14, 30 and 45.  Success was determined by clinical improvement at Day 45.  The success rates of the two groups were significantly different (p=0.0094); 63.70% of dogs administered OSURNIA were successfully treated, compared to 41.72% of the dogs in the placebo control group.</paragraph>
+                     </text>
+                     <effectiveTime value="20150120"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0deb6aa9-96c0-4027-9e18-8fd5997e087d">
+               <id root="ca58b210-8859-425d-b38d-1d3103747e28"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Animal Safety:
+</content>
+               </title>
+               <text>
+                  <paragraph>In a target animal safety study, 24 mixed breed dogs (4 dogs/sex/ group) were aurally administered 0X, 1X (1 mL/ear or 2 mL/dog with repeated administration in 7 days) or 5X (5 mL/ear or 10 mL/dog with repeated administration in 7 days) doses of OSURNIA for a total of 6 administrations in 5 weeks. All dogs remained in good health with normal hearing throughout the study. Decreased weight gain was noted in the 1X and 5X groups compared to the control group. Clinical findings included post-administration  ear wetness in 1X and 5X groups and unilateral, transient brown/red discharge from one ear each in two 5X dogs, with erythema in one dog after the 4th application. Local microscopic changes in ears (without clinical effects) included: slight or moderate unilateral vesicle formation within the epithelium of the tympanic membrane in two 1X and four 5X dogs, and unilateral mucosal ulceration in the lining of the middle ear cavity in three 5X dogs. Three 5X dogs had slightly elevated ALT activity, accompanied by minimal or mild microscopic hepatocellular vacuolation (in two dogs). Cortisol response to ACTH stimulation was decreased, but within the normal reference range, in 1X dogs. The 5X dogs had a decrease in serum cortisol levels after ACTH stimulation (below normal reference range) accompanied by decreased adrenal gland and thymic weights with minimal adrenal cortical atrophy and slight (in three dogs) or moderate (in one dog also noted with slightly lower lymphocyte counts) lymphoid depletion of the thymus. The ACTH stimulation test results are consistent with systemic absorption of betamethasone resulting in a likely reversible suppression of the hypothalamic-pituitary-adrenal  axis as seen with administration of exogenous corticosteroids.</paragraph>
+               </text>
+               <effectiveTime value="20150120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_cac37ad8-e235-4768-886b-6e39038d337c">
+               <id root="4bd8fe8c-682a-404c-94af-98a35c8f5b5c"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>
+                  <content styleCode="bold">Storage Conditions:
+</content>
+               </title>
+               <text>
+                  <paragraph>OSURNIA should be stored under refrigerated conditions between 36° - 46° F (2° - 8° C). To facilitate comfort during administration, OSURNIA may be brought to room temperature and stored for up to three months.</paragraph>
+               </text>
+               <effectiveTime value="20150120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_dd042d83-5ee8-40af-b0ef-5d3e2aadadc5">
+               <id root="bdabf45e-9702-450a-8025-822179776706"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">How Supplied:</content>
+               </title>
+               <text>
+                  <paragraph>OSURNIA is a gel in a single use tube with a flexible soft tip, supplied in cartons containing 2 or 20 tubes.</paragraph>
+                  <paragraph>NADA # 141-437,   Approved by FDA<br/>© 2013  Novartis  Animal  Health US, Inc.<br/>OSURNIA is a registered trademark of Novartis AG</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for:<br/>
+                     </content>Novartis  Animal  Health US, Inc., Greensboro,  NC 27408  USA</paragraph>
+                  <paragraph> <br/>Made in UK <br/>
+                     <br/>NAH/OSU-GEL/VI/1</paragraph>
+               </text>
+               <effectiveTime value="20150120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4bee1f87-224c-4428-9b47-1cccebabc463">
+               <id root="7cd18f08-cd68-42b2-92af-29090152680f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Osurnia<sup>®</sup>
+                        <br/>(florfenicol • terbinafine • betamethasone acetate)<br/>
+                        <br/>
+                     </content>
+                     <content styleCode="bold">Otic gel<br/>
+                     </content>Antibacterial, antifungal, anti-inflammatory<br/>
+                     <br/>
+                     <content styleCode="bold">For Otic Use in Dogs Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">20 tubes</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM1"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150120"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Osurnia® (florfenicol • terbinafine • betamethasone acetate) Otic gel Antibacterial, antifungal, anti-inflammatory For Otic Use in Dogs Only 20 tubes</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="osurnia-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

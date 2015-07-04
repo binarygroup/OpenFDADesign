@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="58a82fe4-5873-4065-9d90-01371b4a2a89"/>
+   <code code="50577-6" codeSystem="2.16.840.1.113883.6.1" displayName="OTC ANIMAL DRUG LABEL"/>
+   <title>DeLaval
+Multi Dose MD</title>
+   <effectiveTime value="20150504"/>
+   <setId root="885de729-460f-4db1-a296-452fd9c84baf"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="173704867" root="1.3.6.1.4.1.519.1"/>
+            <name>DeLaval</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="069288728" root="1.3.6.1.4.1.519.1"/>
+                  <name>WestAgro, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="147528723" root="1.3.6.1.4.1.519.1"/>
+                        <name>WestAgro, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="api manufacture"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="label"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pack"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="002222368" root="1.3.6.1.4.1.519.1"/>
+                        <name>K Klean dba WestAgro, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="api manufacture"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="label"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pack"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="044610140" root="1.3.6.1.4.1.519.1"/>
+                        <name>WestAgro, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="api manufacture"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="label"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pack"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1cb267b9-b1d6-4326-b8d9-15118a19abb6"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20120620"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="55756-323" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Multi Dose MD<suffix/>
+                        </name>
+                        <formCode code="C42898" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION, CONCENTRATE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Iodine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="4000" unit="mg"/>
+                              <denominator value="1" unit="L"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9679TC07X4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IODINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9679TC07X4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IODINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="80E6PSE1XL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>C9-11 PARETH-8</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="G6DQL26D50" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLOXAMER 335</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="F5WR8N145C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM IODIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS CITRIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="208.4" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55756-323-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DRUM"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1042.2" unit="L"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55756-323-27" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43206" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TANK"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20120101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ee747a48-7782-47d6-a8c9-5f7240817915"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Concentrated Iodine Teat Sanitizer</content>
+                     <content styleCode="bold"/>
+                     <br/>
+                     <content styleCode="bold">Aids in reducing the spread of mastitis-causing organisms</content>
+                     <br/>
+                     <content styleCode="italics">Sellador Concentrado Para Pezones<br/>Ayda a reducir la transmission de microoganismsos que causan mastis</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b04a160f-66c2-401e-9afc-f7822004fc14"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">ACTIVE INGREDIENTS</content>
+                     <br/>Iodine........................................4.0% W/V<br/>Emollient (contains glycerin)......40.0% W/V</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">AFTER DILUTION ACCORDING TO INSTRUCTIONS:</content>
+                     <br/>Iodine.........1.0%        Emollient.........10.0%<br/>Iodine.........0.75%        Emollient...........7.5%<br/>Iodine.........0.5%          Emollient...........5.0%<br/>Iodine........0.25%         Emollient...........2.5%<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9906e0c4-9e51-4ac8-bb1f-91cc710f9396"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">KEEP OUT OF REACH OF CHILDREN<br/>! CAUTION</content>
+                  </paragraph>
+                  <content styleCode="bold">MANTENER FUERA DEL ALCANCE DE LOS NINOS<br/>
+                  </content>
+                  <content styleCode="bold">! CUIDADO</content>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="dc736ff9-ea44-48df-84f5-843ca79cd61a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">1323</content>
+                     <br/>NDC 55756-323<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8cb7ab0b-3da3-4819-9c03-c178d7644d29"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">SI USTED NO PUEDE LEER ESTA ETIQUETA, POR FAVOR PIDA A ALGUIEN MAS QUE SE LA LEA ANTES DE USAR ESTE PRODUCTO</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">READ AND UNDERSTAND ALL INSTRUCTIONS BEFORE USING THIS PRODUCT</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f414fb10-6f36-4f01-bc95-06cfd35d0a4a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">FIRST AID</content>
+                     <br/>Contact with product can cause irritation to eyes.  Avoid contact with eyes.<br/>Eye Contact:  Flush with water.  Remove contact lenses, if present, after first 5 minutes.  Then continue rinsing.  Get immediate medical attention.<br/>If Swallowed:  Do not induce vomiting.  If victim is fully conscious, give a cupful of water.  Never give anything my mouth to an unconscious person.  Get immediate medical attention.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9c8470bc-bbd8-4825-8a8a-2c2f01de286c"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">STORAGE AND DISPOSAL</content>
+                     <br/>
+                     <content styleCode="bold">THOROUGHLY RINSE ALL MEASURING DEVISES AND STORE OUT OF REACH OF CHILDREN.</content>  Avoid contact with food or feed.  Avoid storing near heat or open flame.  Keep container tightly closed when not in use.  If product has frozen, thaw in a warm room and shake well before use.  Do not reuse empty container.  Rinse empty container before disposing of in a safe manner.  Do not store in direct sunlight.  Store this product in an area where temperatures are less than 95 deg F.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="cd8d4c9d-b4d1-49eb-b8a1-fbef1eeef6ff"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CHEM-TREC EMERGENCY NUMBER 1-800-324-9300</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="42f90a40-73ee-4c02-a080-7f9e1d30e32c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Not for Human Use<br/>Additional Information on Material Safety Data Sheet</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="eba7e4f7-ebbc-42dd-a608-9285af7b06bf"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Follow dilution directions below to achieve the desired formula.  DeLaval recommends blending with DeLaval's automatic and manual dispensing systems.  Failure to follow these mixing instructions could cause injury to your animals or reduce the effectiveness of the product as a teat dip.  Use diluted dip within two months.</content>
+                  </paragraph>
+                  <table frame="void" width="900" ID="i158adf6f-1db4-49db-8bd0-3496584f95c8">
+                     <caption>DILUTION RATIOS</caption>
+                     <thead>
+                        <tr>
+                           <td styleCode="BotruleLruleRruleToprule" align="center" valign="middle">1%-10% Post Dip Application</td>
+                           <td styleCode="BotruleLruleRruleToprule" align="center" valign="top">.75%-7.5% Post Dip Application</td>
+                           <td styleCode="BotruleLruleRruleToprule" align="center" valign="top">0.5%-5% Post Dip Application</td>
+                           <td styleCode="BotruleLruleRruleToprule" align="center" valign="top">0.25%-2.5% Post Dip Application</td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td styleCode="BotruleLruleRruleToprule" align="center" valign="bottom">1 gallon DeLaval Multi Dose<br/>MD<sup>TM</sup> to 3 gallons of water</td>
+                           <td styleCode="BotruleLruleRruleToprule" align="center" valign="bottom">1 gallon DeLaval Multi Dose<br/>MD<sup>TM</sup> to 4.3 gallons of water</td>
+                           <td styleCode="BotruleLruleRruleToprule" align="center" valign="bottom">1 gallon DeLaval Multi Dose<br/>MD<sup>TM</sup> to 7 gallons of water</td>
+                           <td styleCode="BotruleLruleRruleToprule" align="center" valign="bottom">1 gallon DeLaval Multi Dose<br/>MD<sup>TM</sup> to 15 gallons of water</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e409cc6c-2b53-46da-b002-56b0d970ca90"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">USE DIRECTIONS</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc" ID="ic41f38c0-2af3-4426-855f-ae353a558c1e">
+                     <item>Do not use concentrate at full strength.  Must dilute per instructions above.</item>
+                     <item>Consult your veterinarian before starting or continuing to use teat dip if cow's teats are sore or chapped.</item>
+                     <item>Discard any teat dipping solution that becomes dirty or contaminated.</item>
+                     <item>Clean and sanitize teats before milking to avoid contamination and assist in control of mastitis</item>
+                     <item>Post Milking:  Dip teats to assist in control of mastitis.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fd626a97-c6fe-46bd-80a7-6b4e41d4ad90"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRE-DIPPING</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc" ID="i288f2e16-5024-44e9-8aa4-db5147d6ebee">
+                     <item>Remove excess organic debris and forestrip.</item>
+                     <item>Dip or spray cow's teats with properly diluted DeLaval Multi Dose MD<sup>TM</sup>.</item>
+                     <item>Allow a 30 second contact time.</item>
+                     <item>Dry teats thoroughly with a clean, single-service paper towel.</item>
+                     <item>Attach milker unit</item>
+                  </list>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1adfb6ac-7002-4a40-9245-9ea7731d1e18"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">POST-DIPPING</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc" ID="i9a4026ee-4897-4a22-8557-aebf6827ccb5">
+                     <item>Immediately after removing the milker unit, dip or spray each teat with properly diluted DeLaval Multi Dose MD<sup>TM</sup>.</item>
+                     <item>Before exposing cows to below-freezing temperatures, the teats should be thoroughly dry to reduce the potential of frostbite.  Failure to follow these instructions may result in frozen teats and injured animals.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0b2cb64e-c338-43c5-b3c8-b577fabf1ac9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured for:<br/>
+                     <content styleCode="bold">DeLaval</content>
+                     <br/>Kansas City, MO 64153</paragraph>
+                  <paragraph>Copyright 2013, DeLaval<br/>Made in U.S.A.</paragraph>
+               </text>
+               <effectiveTime value="20120620"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="981137b4-257a-4af2-91d3-2c165c8ea2fb"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20120624"/>
+               <component>
+                  <observationMedia classCode="OBS" moodCode="EVN" ID="MM1">
+                     <text>Product Container Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="MultiDoseMD Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

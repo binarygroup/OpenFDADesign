@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="76045f95-90b2-49a1-9d74-7955ed4f89a2"/>
+   <code code="50577-6" codeSystem="2.16.840.1.113883.6.1" displayName="OTC ANIMAL DRUG LABEL"/>
+   <effectiveTime value="20130612"/>
+   <setId root="3fc7cc60-48ad-49c1-b6f6-274556be16fd"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="006074579" root="1.3.6.1.4.1.519.1"/>
+            <name>DeVere Company, Inc.</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="54d7d179-62c0-4ea2-8115-220654cc29ab"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20150430"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="76315-1009" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>POD<suffix>Concentrate</suffix>
+                        </name>
+                        <formCode code="C42972" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ultra-Concentrated, Premium, Moderate-Foam Teat Dip Concentrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="17" unit="kg"/>
+                              <denominator value="100" unit="kg"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="BBX060AN9V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Hydrogen Peroxide</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="BBX060AN9V" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Hydrogen Peroxide</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="56.5" unit="kg"/>
+                              <denominator value="100" unit="kg"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Z7G82NV92P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Percarbonate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="45.4" unit="kg"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76315-1009-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DRUM"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="181.6" unit="kg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="76315-1009-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" displayName="DRUM" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130213"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L37c8d989-3f45-4088-adb7-598a7a347c06">
+               <id root="55e31f17-302d-4e28-83c3-b40cb978e79c"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <paragraph>Ultra-Concentrate, Premium, Moderate-Foam Teat Dip Concentrate</paragraph>
+                  <paragraph>This product is a concentrated powder that when added to water makes an oxidizing teat dip. POD CONCENTRATE does not contain chlorine, iodine or any other halogens and is designed to clean and sanitize bovine teats before milking. This product works best on relatively clean teats and can be used after milking if environmental challenges are minimal.</paragraph>
+                  <paragraph>Directions</paragraph>
+                  <paragraph>Dilution</paragraph>
+                  <paragraph>Dilute 2,2% of this products with water[e.g. 100lbs[4.5kg] of powder into 55gal [208L] water]</paragraph>
+                  <paragraph>Pre-Milking use</paragraph>
+                  <paragraph>Before milking, dip or spray entire teat with the diluted product. Wipe teats and udder dry after application using single-service towels. Note: If solution in dispenser becomes visibly dirty, replenish with fresh mixture of this product.</paragraph>
+                  <paragraph>Contains:</paragraph>
+                  <paragraph>Hydrogen Peroxide (from Sodium Percarbonate) = 17.0%</paragraph>
+               </text>
+               <effectiveTime value="20150429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb1d3c5af-6295-4e3e-acb0-9a6288e2b5ad">
+               <id root="fc33c175-d78e-4abb-8d13-4930fe20eed0"/>
+               <code code="50741-8" codeSystem="2.16.840.1.113883.6.1" displayName="SAFE HANDLING WARNING SECTION"/>
+               <text>
+                  <paragraph>WARNING</paragraph>
+                  <paragraph>KEEP OUT OF REACH OF CHILDREN</paragraph>
+                  <paragraph>Causes serious eye damage</paragraph>
+                  <paragraph>May intensify fire; oxidizer</paragraph>
+                  <paragraph>Read label before use. Do not breathe dust or mist. Get medical advice and attention if you feel unwell. Store in a dry place. Store in a closed container.</paragraph>
+                  <paragraph>FISRT AID:</paragraph>
+                  <paragraph>IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if present and easy to do. Continue rinsing.</paragraph>
+                  <paragraph>IF ON SKIN: Wash with plenty of water.</paragraph>
+                  <paragraph>IF INHALED: Remove victim to fresh air and keep at rest in a position comfortable for breathing.</paragraph>
+                  <paragraph>IF SWALLOWED: Rinse mouth. Do NOT induce vomiting.</paragraph>
+                  <paragraph>SEE SAFETY DATA SHEETS FOR MORE INFORMATION</paragraph>
+                  <paragraph>KEEP OUT OF REACH OF CHILDREN</paragraph>
+               </text>
+               <effectiveTime value="20150429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L0631fb88-8157-4762-9037-2658a360dea3">
+               <id root="ffefe307-9d72-4aa4-a90c-410df4e1a143"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L339ecd87-439b-4d49-b641-73da9f4ff2d7"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20150429"/>
+               <component>
+                  <observationMedia ID="L339ecd87-439b-4d49-b641-73da9f4ff2d7">
+                     <text>Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="POD-LBL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

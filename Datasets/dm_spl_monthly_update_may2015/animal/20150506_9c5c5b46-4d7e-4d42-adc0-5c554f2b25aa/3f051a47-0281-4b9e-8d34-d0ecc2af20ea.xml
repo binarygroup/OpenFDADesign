@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3f051a47-0281-4b9e-8d34-d0ecc2af20ea"/>
+   <code code="50577-6" codeSystem="2.16.840.1.113883.6.1" displayName="OTC ANIMAL DRUG LABEL"/>
+   <title>DeLaval Lactisan Winter</title>
+   <effectiveTime value="20150504"/>
+   <setId root="9c5c5b46-4d7e-4d42-adc0-5c554f2b25aa"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="173704867"/>
+            <name>DeLaval</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="699288728" root="1.3.6.1.4.1.519.1"/>
+                  <name>WestAgro, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="147528723"/>
+                        <name>WestAgro, Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" displayName="api manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="002222368"/>
+                        <name>K Klean dba WestAgro, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" displayName="api manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="044610140"/>
+                        <name>WestAgro, Inc</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" displayName="api manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="11c34c49-028d-4c80-b429-dba1f4c05ed1"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20140530"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="55756-144" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Lactisan Winter</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Lactic Acid</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="42.3" unit="g"/>
+                              <denominator value="1" unit="L"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F9S9FFU82N" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTIC ACID, L-</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="F9S9FFU82N" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LACTIC ACID, L-</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O414PZ4LPZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SALICYLIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="344S277G0Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALLANTOIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="F75JV2T505" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLOXAMER 338</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="F05Q2T2JA0" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOCUSATE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="I753WB2F1M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C YELLOW NO. 5</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="19" unit="L"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55756-144-08" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C79136" displayName="PAIL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="56.8" unit="L"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55756-144-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" displayName="DRUM" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="208.4" unit="L"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55756-144-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43193" displayName="DRUM" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1042.2" unit="L"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="55756-144-27" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43206" displayName="TANK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20140601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L1139172c-90a8-4fda-a583-f056d2323049">
+               <id root="ea65956f-7d40-46c8-ad4e-1b589e959d85"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>High Emollient Post Dip for Adverse Weather</paragraph>
+                  <paragraph>Aids in reducing the spread of mastitis-causing organisms</paragraph>
+                  <paragraph>Sellador con alto contenido en emolientes para condiciones</paragraph>
+                  <paragraph>Ayuda a reducir la transmision de microorganismos quecausan mastitis</paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf102fffd-ffe3-4c52-9dce-a0dd3b774877">
+               <id root="b8f5a99f-1141-4658-a457-f721f03d727e"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">ACTIVE INGREDIENTS:</content>
+                  </paragraph>
+                  <paragraph>Lactic Acid ................................ 3.5%</paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6940b424-ea0d-49e8-a5d2-377bec2927a1">
+               <id root="d73310dc-dcad-4519-acb1-9564ed04f377"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <text>
+                  <paragraph>Emollient Blend*</paragraph>
+                  <paragraph>* Glycerin ............................... 10.0%</paragraph>
+                  <paragraph>* Propylene Glycol .................. 40.0%</paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L062cc964-3843-44a4-a528-6364db3ea8e5">
+               <id root="f7b0376a-80b7-4779-897a-76cf45e96d6b"/>
+               <code code="50565-1" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - KEEP OUT OF REACH OF CHILDREN SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">KEEP OUT OF REACH OF CHILDREN</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">! CAUTION</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MANTENER FUERA DEL ALCANCE DE LOS NINOS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">!CUIDADO</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6d8a21ff-3c31-4a9d-9932-d51f715b2280">
+               <id root="555c199f-d9b3-41b1-bc76-02822a6d147e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">1144</content>
+                  </paragraph>
+                  <paragraph>NDC 55756-144</paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lcef0a8d1-2772-4b5c-be9d-c8c80b5740b7">
+               <id root="e855ebaa-b913-468d-a12a-37dc2c856758"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">SI USTED NO PUEDE LEER ESTA ETIQUETA, POR FAVOR PIDA A ALGUIEN MAS QUE SE LA LEA ANTES DE USAR ESTE PRODUCTO</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">READ AND UNDERSTAND ALL INSTRUCTIONS BEFORE USING THIS PRODUCT</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8fd7ecda-8597-458a-b563-a8e49848b1e1">
+               <id root="f60f1e68-c23c-40d6-aaa6-156a7c6d1493"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">FIRST AID</content>
+                  </paragraph>
+                  <paragraph>Contact with product can cause irritation to eyes.  Avoid contact with eyes.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Eye Contact:</content>  Flush with water.  Remove contact lenses, if present, after first 5 minutes.  Then continue rinsing.  Get immediate medical attention.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If Swallowed:</content>  Do not induce vomiting.  If victim is fully conscious, give a cupful of water.  Never give anything by mouth to an unconscious person.  Get immediate medical attention.</paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L622e51d2-25d8-4f78-ba2b-4e1271c0b264">
+               <id root="aacf416b-78e9-4fd7-9bde-d6d803636be6"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">STORAGE AND DISPOSAL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">THOROUGHLY RINSE ALL MEASURING DEVICES AND STORE OUT OF REACH OF CHILDREN.</content>  Avoid contact with food or feed.  Avoid storing near heat or open flame.  Store away from chlorine and chlorinated products.  Keep container tightly closed when not in use.  If product has frozen, thaw in a warm room and shake well before use.  Do not reuse empty container.  Rinse empty container before disposing of in a safe manner.  Do not store in direct sunlight.  <content styleCode="bold">Store this product in an area where temperatures are less than 90<sup>0</sup>﻿ F﻿.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L50402ded-f71a-4f58-bbc7-b602da46ec8e">
+               <id root="6c7dd689-48d7-4a75-9206-7329abf101d3"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CHEM-TREC EMERGENCY NUMBER 1-800-424-9300</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L8a57bfc9-7452-4ae4-8c81-863f3680042e">
+               <id root="8e74d70c-e34f-4a57-bf19-4f1a492ff285"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Not for Human Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Additional Information on Material Safety Data Sheet</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L1331688b-a2ac-43f0-a112-73579e7e3b72">
+               <id root="bc712202-a90f-4904-99e2-08fad4f0a505"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">GENERAL INSTRUCTIONS</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <content styleCode="bold">Lactisan Winter</content> is a teat dip formulated for use during adverse weather conditions to provide a maximum level of skin conditioning.</item>
+                     <item>Use <content styleCode="bold">Lactisan Winter</content> when the weather and environment are a challenge to herd health and teat skin condition.</item>
+                     <item>Consult a veterinarian before starting or continuing to use teat dip if cow's teats are sore or chapped.</item>
+                     <item>Discard any teat sanitizing solution that becomes dirty or contaminated for any reason.</item>
+                     <item>Do not use teat dip for cleaning and/or sanitizing of dairy equipment.</item>
+                     <item>Do not pour used teat dip back into original container.</item>
+                     <item>Good dairy practices suggest the thorough cleaning and sanitizing of teats before milking to avoid contamination and assist in the control of mastitis.</item>
+                     <item>Thoroughly clean and sanitize teat dip foaming cup before each milking.  Use fresh teat dip for each milking.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">POST-DIPPING</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Use<content styleCode="bold"> Lactisan Winter</content> sanitizing teat dip <content styleCode="bold">undiluted</content>.</item>
+                     <item>Immediately after removing milking unit, dip or spray teats with <content styleCode="bold">Lactisan Winter</content> teat sanitizer.  Apply an ample coat to each teat.</item>
+                     <item>If outside temperature is below freezing, allow <content styleCode="bold">Lactisan Winter</content> sanitizing teat dip to air dry on cow's teats before cow leaves the parlor, or allow teat dip to remain on cow's teats for one minute, then dry teats with a single-service paper towel.</item>
+                     <item>
+                        <content styleCode="bold">Failure to follow these directions may result in frozen teats and injured animals.</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20140529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L92499a8b-5c0a-4325-9c2a-56cc547785d3">
+               <id root="8cccf859-2cac-4d08-b774-ad610cc74bd8"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DeLaval</content>
+                  </paragraph>
+                  <paragraph>Kansas City, MO 64158</paragraph>
+                  <paragraph>Copyright 2014, DeLaval</paragraph>
+                  <paragraph>Made in U.S.A.</paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L48571211-6c87-4333-8ebf-5c5fcd11d964">
+               <id root="4f41d793-5c2d-4b9e-a91e-20e205ba5bf2"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>NET CONTENTS:</paragraph>
+                  <paragraph>LOT NO.:</paragraph>
+                  <paragraph>EXP. DATE:</paragraph>
+               </text>
+               <effectiveTime value="20140529"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L714d7dda-d232-4f7e-91bf-1642a89938d3">
+               <id root="a7bd334c-076a-4a47-87a9-c797b0cf8db7"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L737a0494-c025-4c27-8e81-0d8ba110c380"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140530"/>
+               <component>
+                  <observationMedia ID="L737a0494-c025-4c27-8e81-0d8ba110c380">
+                     <text>Product Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Lactisan Winter Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
