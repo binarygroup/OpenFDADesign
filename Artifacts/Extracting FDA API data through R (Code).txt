@@ -1,0 +1,53 @@
+#Following code was used to extract data from FDA's API and to create a bar chart of event count by outcome
+##Retrieve outcome event count(Female) data 
+outcome_f = fda_query("/drug/event.json") %>%
+  fda_filter("patient.patientsex","1") %>%
+  fda_count("patient.reaction.reactionoutcome") %>%
+  fda_limit(1000)%>%
+  fda_exec()
+
+
+##Retrieve outcome event count(Male) data 
+outcome_m = fda_query("/drug/event.json") %>%
+  fda_filter("patient.patientsex","2") %>%
+  fda_count("patient.reaction.reactionoutcome") %>%
+  fda_limit(1000)%>%
+  fda_exec()
+
+##Retrieve outcome event count(Gender unknown) data
+outcome_u = fda_query("/drug/event.json") %>%
+  fda_filter("patient.patientsex","0") %>%
+  fda_count("patient.reaction.reactionoutcome") %>%
+  fda_limit(1000)%>%
+  fda_exec()
+
+##Retrieve outcome event count(Total) data
+outcome = fda_query("/drug/event.json") %>%
+  fda_count("patient.reaction.reactionoutcome") %>%
+  fda_limit(1000)%>%
+  fda_exec()
+
+#Merge female and male event count by outcome 
+Merge_f_m<- merge(x = outcome_f, y = outcome_m, by = "term", all = TRUE)
+
+Merge_f_m_u<- merge(x = Merge_f_m, y = outcome_u, by = "term", all = TRUE)
+
+Merge_f_m_u_t<- merge(x = Merge_f_m_u, y = outcome, by = "term", all = TRUE)
+
+#Change column names
+colnames(Merge_f_m_u_t)<- c("Outcome", "Female","Male", "Unknown")
+                            
+#Check total 
+Merge_f_m_u_t$Sum <- Merge_f_m_u_t$Female + Merge_f_m_u_t$Male + Merge_f_m_u_t$Unknown
+#->Some record is missing gender label
+
+#Change column names
+colnames(Merge_f_m_u_t)<- c("Outcome", "Female","Male", "Unknown", "Total_Event_Count","Sum")
+
+#Export as csv file
+library(xlsx)
+write.xlsx(Merge_f_m_u_t, "Merge_f_m_u_t.xlsx") 
+
+##[Plotting the average values for each level in ggplot2]##
+library(ggplot2)
+Plot.Outcome <- ggplot(Merge_f_m_u_t, aes(x=Outcome, y=Total_Event_Count, fill="Event Count", binwidth = 1))+ stat_summary(fun.y="sum", geom="bar") + scale_x_continuous(breaks = seq(1,6,1))
