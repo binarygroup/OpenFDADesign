@@ -1,6 +1,6 @@
 # OpenFDADesign
 ## Description ##
-The design prototype, located at [https://public.tableau.com/views/FAERSSummaryCharts/AdverseReport?:embed=y&:showTabs=y&:display_count=yes](https://public.tableau.com/views/FAERSSummaryCharts/AdverseReport?:embed=y&:showTabs=y&:display_count=yes), fetches adverse event data via OpenFDA datasets and API, and generates charts and tables according to user-defined filters.
+The design prototype, located at [https://public.tableau.com/shared/SPN2D382M?:display_count=yes](https://public.tableau.com/shared/SPN2D382M?:display_count=yes), fetches adverse event data via OpenFDA datasets and API, and generates charts and tables according to user-defined filters.
 ## Technical Approach ##
 Our team applied Binary Group’s agile development methodology, ODEA™, to wrap Agile/Scrum with discovery, planning, architecting and DevOps, while ensuring continuous user engagement and alignment from project initiation to completion. We followed the Digital Playbook as guiding principles throughout, and have provided evidence in the repository at [https://github.com/binarygroup/OpenFDADesign/blob/master/Artifacts/Digital%20Playbook%20Mapping.xlsx](https://github.com/binarygroup/OpenFDADesign/blob/master/Artifacts/Digital%20Playbook%20Mapping.xlsx) to trace results and artifact alignment to those principles. In sections a-k below, we describe our approach to Pool One Design:
 
